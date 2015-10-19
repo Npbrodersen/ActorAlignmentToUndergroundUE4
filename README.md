@@ -1,7 +1,7 @@
 # Align Characters to the Underground in UE4
 
 ## Introduction
-Embedded in an example project you will find a method that aligns the player-character to the underground/the surface he walks on. So if the player walks up a ramp, the character will be accordingly tilted.
+Embedded in an example project (where you can walk around and check the behaviour of the character) you will find a method that aligns the player-character to the underground/the surface he walks on. So if the player walks up a ramp, the character will be accordingly tilted.
 
 ![A screenshot of the tilted character in Unreal Editor](http://i.imgur.com/PjJDX3q.jpg)
 
