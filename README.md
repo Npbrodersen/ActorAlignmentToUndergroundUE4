@@ -8,7 +8,7 @@ Embedded in an example project you will find a method that aligns the player-cha
 To get the desired effect, a line will be traced downwards from the players position, upon the hit event the character gets aligned to the normal vector of the surface he is standing on.
 
 ## Usage
-For using the method, it has to be bound to a event. In case of the example, it is called every framed via the Tick-Event, but it can also get assigned to a buton input or collision events:
+For using the method, it has to be bound to a event. In case of the example, it is called every frame via Tick-Event added to the Character Class, but it can also get assigned to a button input or collision events:
 
 1. Navigate to ActorAlignment\Source\ActorAlignment and open the ActorAlignmentCharacter.cpp.
 2. In Line 136 you'll find the method Tick, which is called every frame an aligns the character.
