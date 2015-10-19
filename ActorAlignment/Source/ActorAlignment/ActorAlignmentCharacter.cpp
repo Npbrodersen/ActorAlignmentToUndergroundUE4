@@ -136,7 +136,6 @@ void AActorAlignmentCharacter::MoveRight(float Value)
 //Here the Actor gets aligned to the underground, you can also assign the funtion to an input oder other triggers/actions
 void AActorAlignmentCharacter::Tick(float DeltaTime)
 {
-	//Super::Tick(DeltaTime);
 	FVector X; //variable for updated forward vetor
 	FVector Y; //variable for updated right headed vector
 	FVector Z; //variable for updated upward vector
