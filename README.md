@@ -2,7 +2,7 @@
 
 ## Introduction
 Embedded in an example project you will find a method that aligns the player-character to the underground/the surface he walks on. So if the player walks up a ramp, the character will be accordingly tilted.
-![A screenshot of the tilted character in Unreal Editor](http://imgur.com/oSr1uaI)
+![A screenshot of the tilted character in Unreal Editor](http://i.imgur.com/PjJDX3q.jpg)
 
 ## Technical overview
 To get the desired effect, a line will be traced downwards from the players position, upon the hit event the character gets aligned to the normal vector of the surface he is standing on.
@@ -17,6 +17,5 @@ For using the method, it has to be bound to a event. In case of the example, it 
   - via CrossProduct we get the new vectors
   - the character receives a vector transformation which aligns him to the underground
 
-![A screenshot of the tilted character in Unreal Editor](http://imgur.com/9iJrTZh)
 
 
